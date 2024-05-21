@@ -2,7 +2,7 @@
 <?php /*Esta linea*/ ?>
 @section('content')
     <h1>Ventana Principal</h1>
-
+    <h2>Esto solo es una prueba</h2>
     <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
         <!--begin::Post-->
         <div class="post d-flex flex-column-fluid" id="kt_post">
