@@ -149,8 +149,8 @@ class MotorPruebas extends Controller
             $table->increments('id');
             $table->integer('id_administrador')->nullable();
             $table->string('nombre',250)->nullable();
-            $table->integer('id_usuario');
-            $table->integer('correo')->default(1);
+            $table->integer('id_usuario')->nullable();
+            $table->string('correo',250)->nullable();
             $table->string('apellido',250)->nullable();
             $table->string('direccion',250)->nullable();
             $table->string('telefono',250)->nullable();

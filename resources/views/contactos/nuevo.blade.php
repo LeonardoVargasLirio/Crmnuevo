@@ -22,12 +22,12 @@
                     </div>
                     <div class="col-md-3 fv-row">
                         <label class="required form-label">Correo Electronico</label>
-                        <input type="text" name="correo" id="correo" class="form-control mb-2"
+                        <input type="email" name="correo" id="correo" class="form-control mb-2"
                                placeholder="correo@gmail.com" value=""/>
                     </div>
                     <div class="col-md-3  fv-row">
                         <label class="required form-label">Administrador</label>
-                        <select id="id_administrador" name="id_administrador" class="form-select"
+                        <select id="id_usuario" name="id_usuario" class="form-select"
                                 aria-label="Seleccione una opcion">
                             <option selected>Seleccione un Dueño</option>
                             @foreach($usuario as $usuario)

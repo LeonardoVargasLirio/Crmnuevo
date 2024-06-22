@@ -43,11 +43,12 @@ class ContactosControlador extends Controller
 
         $datos = $request->datos;
 
-        $contactos = new Contactos();
+        $contactos = new contactos();
         $contactos->nombre = $datos["nombre"];
         $contactos->apellido = $datos["apellido"];
         $contactos->direccion = $datos["direccion"];
         $contactos->id_usuario = $datos["id_usuario"];
+        $contactos->correo = $datos["correo"];
         $contactos->telefono = $datos["telefono"];
         $contactos->etiqueta = $datos["etiqueta"];
         $contactos->fuente = $datos["fuente"];
